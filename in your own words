@@ -1,0 +1,20 @@
+What is scope? Your explanation should include the idea of global vs. local scope.
+
+Scope determines the visibility of variables and other resources in your code. For code using let and cont, 
+the two types of scopes to understand are global vs. local scope. When a variable is called in global scope, it can be used anywhere. 
+Simply put, any variable not in a function is in global scope. On the other hand, a block scope is a variable defined in a function. 
+Block scope means that the variable defined in the function is only accessible within the function. 
+
+Why are global variables avoided?
+
+Global varibles are avoided because they can create side effects. The combination of global variables and side effects will lead to 
+the code becoming indeterminate. An indeterminate function is a function that when given a set of inputs, returns one value sometimes
+and another the other times. 
+
+Explain JavaScript's strict mode
+
+Javascript's strict mode is when anytime a variable is declared without let or const, an error will show up. 
+
+What are side effects, and what is a pure function?
+A side effect is when a function alters something outside of its domain. This leads to an indeterminate function. On the other hand,
+a pure function is when it is both determinate and has no side effects. 
